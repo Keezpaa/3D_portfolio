@@ -240,15 +240,15 @@ import {
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
-          name: "nextjs",
+          name: ".NET",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
+          name: "Firebase",
+          color: "orange-text-gradient",
         },
         {
-          name: "css",
+          name: "sql",
           color: "pink-text-gradient",
         },
       ],
