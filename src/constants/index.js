@@ -19,9 +19,9 @@ import {
     education1,
     education2,
     education3,
-    carrent,
-    jobit,
-    tripguide,
+    stribe,
+    food4u,
+    pokemon1,
     threejs,
     cv,
   } from "../assets";
@@ -185,33 +185,37 @@ import {
  
   const projects = [
     {
-      name: "Car Rent",
+      name: "Stribe. My group's Bachelor project which got an A.",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Stribe is an online platform exclusively for students to connect, create meetups, and support each other towards graduating. Join us today and start making meaningful connections with other students on your academic journey!",
       tags: [
         {
-          name: "react",
+          name: "vue",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "firebase",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "vite",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "pinia",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: stribe,
+      source_code_link: "https://stribe-app.vercel.app/",
     },
     {
-      name: "Job IT",
+      name: "MatOppskrifter Android App",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Min matoppskriftsapp for Android gir tilgang til et API med oppskrifter inkludert trinnvise instruksjoner, ingredienser og YouTube-videoer. Du kan tilpasse profilen din, logge inn/registrere deg, og nyte en bred kulinarisk verden.",
       tags: [
         {
-          name: "react",
+          name: "kotlin",
           color: "blue-text-gradient",
         },
         {
@@ -219,15 +223,19 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "firebase",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "css",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: food4u,
+      source_code_link: "https://github.com/Keezpaa/MatOppskrifter",
     },
     {
-      name: "Trip Guide",
+      name: "Pokemon Windows App",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
@@ -244,8 +252,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: pokemon1,
+      source_code_link: "https://github.com/Keezpaa/PokemonWiki",
     },
   ];
   

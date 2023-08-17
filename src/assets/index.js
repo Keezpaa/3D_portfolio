@@ -6,7 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import gotoweb from "./gotoWeb.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -21,13 +21,15 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import pokemon1 from "./pokemon1.png";
+
 import education4 from "./company/education4.png";
 import education3 from "./company/education3.png";
 import education1 from "./company/education1.png";
 import education2 from "./company/education2.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import stribe from "./stribe.png";
+import food4u from "./food4u2.png";
 import tripguide from "./tripguide.png";
 import cv from "./cv.png";
 export {
@@ -42,6 +44,7 @@ export {
   css,
   cv,
   docker,
+  pokemon1,
   figma,
   git,
   html,
@@ -57,7 +60,8 @@ export {
   education3,
   education1,
   education2,
-  carrent,
-  jobit,
+  stribe,
+  food4u,
   tripguide,
+  gotoweb,
 };
